@@ -382,3 +382,4 @@ function fn_nativePopup(url, param) {
 	*/
 	window.open(url + "?" + param, "");
 }
+

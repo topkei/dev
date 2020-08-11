@@ -490,12 +490,13 @@ $.fn.extend({
         let $param = $('<input>').attr('type', 'text').attr('name', fileParam.name).hide();
         $param.data('form', 'file').data('fileName', fileParam.fileName).val(fileParam.value);
         
-        //폼에 추가
+        //폼에 추가 
         $form.append($param);
     }
 });
 
 })(jQuery, this || window);
+
 
 
 
