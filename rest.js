@@ -491,7 +491,7 @@ $.fn.extend({
         $param.data('form', 'file').data('fileName', fileParam.fileName).val(fileParam.value);
         
         //폼에 추가 
-        $form.append($param);
+        //$form.append($param);
     }
 });
 
